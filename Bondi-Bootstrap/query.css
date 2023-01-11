@@ -1,0 +1,203 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .nav-bar {
+        justify-content: space-around;
+        background-color: #000000eb;
+    }
+    .nav-bar i {
+        display: block;
+    }
+    .menu-navbar {
+        width: fit-content;
+    }
+    .menu-navbar li {
+        padding-bottom: 5px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.466);
+    }
+    .menu-navbar ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .about-content {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .about-content .intro,
+    .about-content .info {
+        width: 100%;
+    }
+    .reviews {
+        flex-wrap: wrap;
+    }
+    .review {
+        width: 100%;
+    }
+    input[type="text"],
+    input[type="email"] {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .nav-bar {
+        justify-content: space-around;
+        position: relative;
+        background-color: #000000eb;
+    }
+    .nav-bar i {
+        display: block;
+    }
+    .menu-navbar {
+        width: fit-content;
+    }
+    .menu-navbar li {
+        padding-bottom: 5px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.466);
+    }
+    .menu-navbar ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .about-content {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .about-content .intro,
+    .about-content .info {
+        width: 100%;
+    }
+    .reviews {
+        flex-wrap: wrap;
+    }
+    .review {
+        width: 100%;
+    }
+    input[type="text"],
+    input[type="email"] {
+        width: 100%;
+    }
+    .services .title p,
+    .about .title p,
+    .summary .title p,
+    .portfolio .title p,
+    .portfolio .title p,
+    .feed-back .title p,
+    .contact .title p {
+        font-size: 7rem;
+    }
+    .services .title p span,
+    .about .title p span,
+    .summary .title p span,
+    .portfolio .title p span,
+    .portfolio .title p span,
+    .feed-back .title p span,
+    .contact .title p span {
+        font-size: 2rem;
+    }
+    .cont-mess {
+        flex-wrap: wrap-reverse;
+    }
+    .note {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .nav-bar {
+        justify-content: space-around;
+        position: relative;
+        background-color: #000000eb;
+    }
+    .nav-bar i {
+        display: block;
+    }
+    .menu-navbar {
+        width: fit-content;
+    }
+    .menu-navbar li {
+        padding-bottom: 5px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.466);
+    }
+    .menu-navbar ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .about-content {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .about-content .intro,
+    .about-content .info {
+        width: 100%;
+    }
+    .reviews {
+        flex-wrap: wrap;
+    }
+    .review {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    input[type="text"],
+    input[type="email"] {
+        width: 100%;
+    }
+    .services .title p,
+    .about .title p,
+    .summary .title p,
+    .portfolio .title p,
+    .portfolio .title p,
+    .feed-back .title p,
+    .contact .title p {
+        font-size: 3rem;
+    }
+    .services .title p span,
+    .about .title p span,
+    .summary .title p span,
+    .portfolio .title p span,
+    .portfolio .title p span,
+    .feed-back .title p span,
+    .contact .title p span {
+        font-size: 1rem;
+    }
+    .cont-mess {
+        flex-wrap: wrap-reverse;
+    }
+    .note {
+        width: 100%;
+    }
+    .my-numbers .item {
+        width: 50%;
+        text-align: center;
+        border-bottom: 1px dashed rgba(128, 128, 128, 0.479);
+        padding-bottom: 15px;
+    }
+    .service {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+    }
+    .all-containers,
+    .my-numbers,
+    .my-numbers {
+        flex-wrap: wrap;
+    }
+    .my-skills .skill {
+        width: 100%;
+    }
+    .project {
+        width: 100%;
+    }
+    .footer {
+        flex-wrap: wrap;
+    }
+    .footer h3 {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+}
